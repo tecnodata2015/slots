@@ -1,0 +1,20 @@
+name: codercom_php8 docker Image CI
+
+on:
+  push:
+    paths:
+      'test/*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - id: files
+      uses: jitterbit/get-changed-files@v1
+      
+    - run: |
+        files=${{ steps.files.outputs.all }}
+        for changed_file in $files; do
+          echo "Do something with this ${changed_file}."
+        done
