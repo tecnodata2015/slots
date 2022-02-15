@@ -34,7 +34,7 @@ jobs:
              base="${filename%.[^.]*}"
              ext="${filename:${#base} + 1}"                 
              convert -resize 140x140\! $fullpath /tmp/$base.png
-             ./s5cmd cp -acl public-read /tmp/$base.png s3/${{ secrets.S3_BUCKET }}/$dir$base.png
+             ./s5cmd cp -acl public-read /tmp/$base.png s3://${{ secrets.S3_BUCKET }}/$dir$base.png
              ls /tmp
           fi
           echo "Do something with this $fullpath."
