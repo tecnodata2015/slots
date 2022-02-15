@@ -27,13 +27,12 @@ jobs:
       run: |
         files=${{ steps.files.outputs.all }}
         folders=("test")
-      
+        echo $folders
+        echo " ${foldes[*]} "
         for fullpath in $files; do
           echo $fullpath
           filename="${fullpath##*/}"
           dir="${fullpath%%/*}"
-          echo $filename
-          echo $dir
           [[ $filename == $dir ]] && continue
           echo 1
           [[ " ${foldes[*]} " =~ " $dir " ]] && echo true || echo false; continue
