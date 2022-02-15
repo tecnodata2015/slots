@@ -10,11 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
+    - name: Check out repository code
+      uses: actions/checkout@v2
+      
     - id: files
       uses: jitterbit/get-changed-files@v1
       
     - run: |
         files="${{ steps.files.outputs.all }}"
+        pwd
+        ls
         for fullpath in test/*; do
           mimetype=$(file -b --mime-type $fullpath)
           echo $mimetype
