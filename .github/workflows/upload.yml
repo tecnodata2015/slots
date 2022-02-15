@@ -25,14 +25,15 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.S3_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET }}
       run: |
-        folders=("test")
         files=${{ steps.files.outputs.all }}
+        folders=("test")
       
         for fullpath in $files; do
           filename="${fullpath##*/}"
           dir="${fullpath%%/*}"
           [[ $filename == $dir ]] && continue
           [[ " ${foldes[*]} " =~ " ${dir} " ]] || continue
+          echo $fullpath
           mimetype=$(file -b --mime-type $fullpath)
           if [[ $mimetype =~ "image" ]]; then
              dirpath="${fullpath:0:${#fullpath} - ${#filename}}"
