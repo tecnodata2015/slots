@@ -41,12 +41,19 @@ jobs:
              ext="${filename:${#base} + 1}"                 
              convert -resize 140x140\! $fullpath /tmp/$base.png
              ./s5cmd cp -acl public-read /tmp/$base.png s3://$S3_BUCKET/$dirpath$base.png
-             files+="$dirpath$base.png,"
+             files+="https://cdn.sellatuparley.com/$dirpath$base.png,"
           fi
         done
         files="${files//,/\",\"}"
         files="[\"${files:0:-3}\"]"
         echo $files
+        echo "{\"files\":$files}"
+        url="https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONEID }}/purge_cache"
+        header="Authorization: Bearer {{ secrets.CF_TOKEN }}"
+        data="{\"files\":$files}"
+        echo $url
+        echo $header
+        echo $data
         curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONEID }}/purge_cache" \
         --header "Authorization: Bearer {{ secrets.CF_TOKEN }}" \
         --header 'Content-Type: application/json' \
