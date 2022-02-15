@@ -20,6 +20,7 @@ jobs:
         files="${{ steps.files.outputs.all }}"
         for fullpath in test/*; do
           mimetype=$(file -b --mime-type $fullpath)
+          ls $fullpath -lh
           file $fullpath
           echo $mimetype
           if [[ $mimetype =~ "image" ]]; then
