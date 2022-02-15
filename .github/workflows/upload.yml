@@ -36,7 +36,7 @@ jobs:
           echo $dir
           [[ $filename == $dir ]] && continue
           echo 1
-          [[ " ${foldes[*]} " =~ " $dir " ]] || echo true; continue || echo false
+          [[ " ${foldes[*]} " =~ " $dir " ]] && echo true || echo false; continue
           mimetype=$(file -b --mime-type $fullpath)
           if [[ $mimetype =~ "image" ]]; then
              dirpath="${fullpath:0:${#fullpath} - ${#filename}}"
