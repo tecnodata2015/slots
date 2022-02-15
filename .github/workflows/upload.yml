@@ -24,6 +24,7 @@ jobs:
         S3_ENDPOINT_URL: ${{ secrets.S3_ENDPOINT }}
         AWS_ACCESS_KEY_ID: ${{ secrets.S3_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET }}
+        CDN_URL: ${{ secrets.CDN_URL }}
       run: |
         fullpaths="${{ steps.files.outputs.all }}"
         folders=("test")
@@ -41,14 +42,14 @@ jobs:
              ext="${filename:${#base} + 1}"                 
              convert -resize 140x140\! $fullpath /tmp/$base.png
              ./s5cmd cp -acl public-read /tmp/$base.png s3://$S3_BUCKET/$dirpath$base.png
-             files+="https://cdn.sellatuparley.com/$dirpath$base.png,"
+             files+="$CDN_URL/$dirpath$base.png,"
           fi
         done
         files="${files//,/\",\"}"
-        files="[\"${files:0:-3}\"]"
-        dofiles="${files//https:\/\/cdn.sellatuparley.com\//}"
+        cffiles="[\"${files:0:-3}\"]"
+        dofiles="${cffiles//$CDN_URL/}"
         echo $dofiles
-        echo $files
+        echo $cffiles
         
         curl -s -X DELETE "${{ secrets.DO_APIURL }}/cdn/endpoints/${{ secrets.DO_CDNID }}/cache" \
         --header "Authorization: Bearer ${{ secrets.DO_TOKEN }}" \
@@ -58,4 +59,4 @@ jobs:
         curl -s -X POST "${{ secrets.CF_APIURL }}/zones/${{ secrets.CF_ZONEID }}/purge_cache" \
         --header "Authorization: Bearer ${{ secrets.CF_TOKEN }}" \
         --header 'Content-Type: application/json' \
-        --data-raw "{\"files\":$files}"
+        --data-raw "{\"files\":$cffiles}"
