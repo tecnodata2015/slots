@@ -46,8 +46,16 @@ jobs:
         done
         files="${files//,/\",\"}"
         files="[\"${files:0:-3}\"]"
+        dofiles="${files//https:\/\/cdn.sellatuparley.com\//}"
+        echo $dofiles
         echo $files
-        curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONEID }}/purge_cache" \
+        
+        curl -s -X DELETE "${{ secrets.DO_APIURL }}/cdn/endpoints/${{ secrets.DO_CDNID }}/cache" \
+        --header "Authorization: Bearer ${{ secrets.DO_TOKEN }}" \
+        --header 'Content-Type: application/json' \
+        --data-raw "{\"files\":$dofiles}"
+        
+        curl -s -X POST "${{ secrets.CF_APIURL }}/zones/${{ secrets.CF_ZONEID }}/purge_cache" \
         --header "Authorization: Bearer ${{ secrets.CF_TOKEN }}" \
         --header 'Content-Type: application/json' \
         --data-raw "{\"files\":$files}"
