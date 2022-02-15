@@ -25,9 +25,10 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.S3_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET }}
       run: |
-        files="${{ steps.files.outputs.all }}"
+        fullpaths="${{ steps.files.outputs.all }}"
         folders=("test")
-        for fullpath in $files; do
+        files=""
+        for fullpath in $fullpaths; do
           filename="${fullpath##*/}"
           dir="${fullpath%%/*}"
           [[ $filename == $dir ]] && continue
@@ -40,5 +41,13 @@ jobs:
              ext="${filename:${#base} + 1}"                 
              convert -resize 140x140\! $fullpath /tmp/$base.png
              ./s5cmd cp -acl public-read /tmp/$base.png s3://$S3_BUCKET/$dirpath$base.png
+             files+="$dirpath$base.png,"
           fi
         done
+        files="${files//,/\",\"}"
+        files="[\"${files:0:-3}\"]"
+        echo $files
+        curl POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONEID }}/purge_cache" \
+        --header "Authorization: Bearer {{ secrets.CF_TOKEN }}" \
+        --header 'Content-Type: application/json' \
+        --data-raw "{\"files\":$files}"
