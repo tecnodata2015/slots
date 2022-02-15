@@ -32,14 +32,13 @@ jobs:
           filename="${fullpath##*/}"
           dir="${fullpath%%/*}"
           [[ $filename == $dir ]] && continue
-          [[ " ${foldes[*]} " =~ " ${dir} " ]] && continue
+          [[ " ${foldes[*]} " =~ " ${dir} " ]] || continue
           mimetype=$(file -b --mime-type $fullpath)
           if [[ $mimetype =~ "image" ]]; then
-             filename="${fullpath##*/}"
-             dir="${fullpath:0:${#fullpath} - ${#filename}}"
+             dirpath="${fullpath:0:${#fullpath} - ${#filename}}"
              base="${filename%.[^.]*}"
              ext="${filename:${#base} + 1}"                 
              convert -resize 140x140\! $fullpath /tmp/$base.png
-             ./s5cmd cp -acl public-read /tmp/$base.png s3://$S3_BUCKET/$dir$base.png
+             ./s5cmd cp -acl public-read /tmp/$base.png s3://$S3_BUCKET/$dirpath$base.png
           fi
         done
