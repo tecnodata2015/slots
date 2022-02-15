@@ -29,11 +29,14 @@ jobs:
         folders=("test")
       
         for fullpath in $files; do
+          echo $fullpath
           filename="${fullpath##*/}"
           dir="${fullpath%%/*}"
+          echo $filename
+          echo $dir
           [[ $filename == $dir ]] && continue
-          [[ " ${foldes[*]} " =~ " ${dir} " ]] || continue
-          echo $fullpath
+          echo 1
+          [[ " ${foldes[*]} " =~ " $dir " ]] || echo true; continue || echo false
           mimetype=$(file -b --mime-type $fullpath)
           if [[ $mimetype =~ "image" ]]; then
              dirpath="${fullpath:0:${#fullpath} - ${#filename}}"
