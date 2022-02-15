@@ -1,4 +1,4 @@
-name: codercom_php8 docker Image CI
+name: upload images
 
 on:
   push:
@@ -15,6 +15,14 @@ jobs:
       
     - run: |
         files="${{ steps.files.outputs.all }}"
-        for changed_file in $files; do
-          echo "Do something with this ${changed_file}."
+        for fullpath in $files; do
+          mimetype=$(file -b --mimetype $fullpath)
+          if [[ $mimetype =~ "image" ]]; then
+             filename="${fullpath##*/}"
+             dir="${fullpath:0:${#fullpath} - ${#filename}}"
+             base="${filename%.[^.]*}"
+             ext="${filename:${#base} + 1}"                 
+             convert -resize 140x140\! $fullpath $base.png 
+          fi
+          echo "Do something with this $fullpath."
         done
