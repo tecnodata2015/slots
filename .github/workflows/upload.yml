@@ -17,7 +17,18 @@ jobs:
       uses: jitterbit/get-changed-files@v1
       
     - run: |
-        git diff-tree --no-commit-id --name-only -r ${{ github.sha }}
+        if [ $GITHUB_BASE_REF ]; then
+            # Pull Request
+            git fetch origin $GITHUB_BASE_REF --depth=1
+            export DIFF=$( git diff --name-only origin/$GITHUB_BASE_REF $GITHUB_SHA )
+            echo "Diff between origin/$GITHUB_BASE_REF and $GITHUB_SHA"
+        else
+            # Push
+            git fetch origin ${{ github.event.before }} --depth=1
+            export DIFF=$( git diff --name-only ${{ github.event.before }} $GITHUB_SHA )
+            echo "Diff between ${{ github.event.before }} and $GITHUB_SHA"
+        fi
+        echo "$DIFF"
         files="${{ steps.files.outputs.all }}"
         for fullpath in test/*; do
           mimetype=$(file -b --mime-type $fullpath)
