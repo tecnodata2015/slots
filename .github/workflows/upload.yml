@@ -17,6 +17,7 @@ jobs:
       uses: jitterbit/get-changed-files@v1
       
     - run: |
+        git diff-tree --no-commit-id --name-only -r ${{ github.sha }}
         files="${{ steps.files.outputs.all }}"
         for fullpath in test/*; do
           mimetype=$(file -b --mime-type $fullpath)
