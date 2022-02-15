@@ -16,13 +16,14 @@ jobs:
     - id: files
       uses: jitterbit/get-changed-files@v1
       
-    - name: Install minIO client
-      run: |
-        wget -q https://dl.min.io/client/mc/release/linux-amd64/mc
-        chmod +x ./mc
-        ./mc alias set s3 ${{ secrets.S3_ENDPOINT }} ${{ secrets.S3_KEY }} ${{ secrets.S3_SECRET }}
+    - name: Install s5cmd
+      run: wget https://github.com/peak/s5cmd/releases/download/v1.4.0/s5cmd_1.4.0_Linux-64bit.tar.gz -qO- | tar -xz
 
-    - run: |
+    - env: 
+        S3_ENDPOINT_URL: ${{ secrets.S3_ENDPOINT }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.S3_KEY }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET }}
+      run: |
         files=${{ steps.files.outputs.all }}
       
         for fullpath in $files; do
@@ -33,7 +34,7 @@ jobs:
              base="${filename%.[^.]*}"
              ext="${filename:${#base} + 1}"                 
              convert -resize 140x140\! $fullpath /tmp/$base.png
-             ./mc cp /tmp/$base.png s3/${{ secrets.S3_BUCKET }}/$dir/$base.png
+             ./s5cmd -acl public-read cp /tmp/$base.png s3/${{ secrets.S3_BUCKET }}/$dir$base.png
              ls /tmp
           fi
           echo "Do something with this $fullpath."
