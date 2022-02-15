@@ -47,7 +47,7 @@ jobs:
         files="${files//,/\",\"}"
         files="[\"${files:0:-3}\"]"
         echo $files
-        curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONEID }}/purge_cache" \
+        curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONEID }}/purge_cache" \
         --header "Authorization: Bearer ${{ secrets.CF_TOKEN }}" \
         --header 'Content-Type: application/json' \
         --data-raw "{\"files\":$files}"
