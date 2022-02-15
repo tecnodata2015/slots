@@ -18,18 +18,17 @@ jobs:
       
     - run: |
         files="${{ steps.files.outputs.all }}"
-        pwd
-        ls
         for fullpath in test/*; do
           mimetype=$(file -b --mime-type $fullpath)
+          file $fullpath
           echo $mimetype
           if [[ $mimetype =~ "image" ]]; then
              filename="${fullpath##*/}"
              dir="${fullpath:0:${#fullpath} - ${#filename}}"
              base="${filename%.[^.]*}"
              ext="${filename:${#base} + 1}"                 
-             convert -resize 140x140\! $fullpath $base.png
-             ls
+             convert -resize 140x140\! $fullpath /tmp/$base.png
+             ls /tmp
           fi
           echo "Do something with this $fullpath."
         done
