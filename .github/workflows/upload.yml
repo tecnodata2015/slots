@@ -16,7 +16,7 @@ jobs:
     - run: |
         files="${{ steps.files.outputs.all }}"
         for fullpath in $files; do
-          mimetype=$(file -b --mimetype $fullpath)
+          mimetype=$(file -b --mime-type $fullpath)
           if [[ $mimetype =~ "image" ]]; then
              filename="${fullpath##*/}"
              dir="${fullpath:0:${#fullpath} - ${#filename}}"
