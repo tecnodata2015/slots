@@ -13,41 +13,20 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v2
       
-    - name: Dump GitHub context
-      id: github_context_step
-      run: echo '${{ toJSON(github) }}'
-    - name: Dump job context
-      run: echo '${{ toJSON(job) }}'
-    - name: Dump steps context
-      run: echo '${{ toJSON(steps) }}'
-    - name: Dump runner context
-      run: echo '${{ toJSON(runner) }}'
-    - name: Dump strategy context
-      run: echo '${{ toJSON(strategy) }}'
-    - name: Dump matrix context
-      run: echo '${{ toJSON(matrix) }}'
+    - id: files
+      uses: jitterbit/get-changed-files@v1
       
-    - name: Check changed files
-      id: diff
+    - name: Install minIO client
       run: |
-          # See https://github.community/t/check-pushed-file-changes-with-git-diff-tree-in-github-actions/17220/10
-          if [ $GITHUB_BASE_REF ]; then
-            # Pull Request
-            git fetch origin $GITHUB_BASE_REF --depth=1
-            export DIFF=$( git diff --name-only origin/$GITHUB_BASE_REF $GITHUB_SHA )
-            echo "Diff between origin/$GITHUB_BASE_REF and $GITHUB_SHA"
-          else
-            # Push
-            git fetch origin ${{ github.event.before }} --depth=1
-            export DIFF=$( git diff --name-only ${{ github.event.before }} $GITHUB_SHA )
-            echo "Diff between ${{ github.event.before }} and $GITHUB_SHA"
-          fi
-          echo "$DIFF"
-          # Escape newlines (replace \n with %0A)
-          echo "::set-output name=diff::$( echo "$DIFF" | sed ':a;N;$!ba;s/\n/%0A/g' )"
-      
+        wget https://dl.min.io/client/mc/release/linux-amd64/mc
+        chmod +x ./mc
+        ./mc alias set s3 ${{ secrets.S3_ENDPOINT }} ${{ secrets.S3_KEY }} ${{ secrets.S3_SECRET }}
+        ./mc ls s3
+        ./mc alias ls
+
     - run: |
-        files="${{ steps.diff.outputs.diff }}"
+        files=${{ steps.files.outputs.all }}
+      
         for fullpath in $files; do
           mimetype=$(file -b --mime-type $fullpath)
           if [[ $mimetype =~ "image" ]]; then
