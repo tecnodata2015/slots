@@ -31,8 +31,6 @@ jobs:
           filename="${fullpath##*/}"
           dir="${fullpath%%/*}"
           [[ $filename == $dir ]] && continue
-          echo " ${folders[*]} "
-          echo " $dir "
           [[ " ${folders[*]} " =~ " $dir " ]] || continue
           echo $fullpath
           mimetype=$(file -b --mime-type $fullpath)
