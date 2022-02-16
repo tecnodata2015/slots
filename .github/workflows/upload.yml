@@ -1,0 +1,62 @@
+name: upload images
+
+on:
+  push:
+    paths:
+      'test/*'
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Check out repository code
+      uses: actions/checkout@v2
+      
+    - id: files
+      uses: jitterbit/get-changed-files@v1
+      
+    - name: Install s5cmd
+      run: wget https://github.com/peak/s5cmd/releases/download/v1.4.0/s5cmd_1.4.0_Linux-64bit.tar.gz -qO- | tar -xz
+
+    - env: 
+        S3_BUCKET: ${{ secrets.S3_BUCKET }}
+        S3_ENDPOINT_URL: ${{ secrets.S3_ENDPOINT }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.S3_KEY }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET }}
+        CDN_URL: ${{ secrets.CDN_URL }}
+      run: |
+        fullpaths="${{ steps.files.outputs.all }}"
+        folders=("test")
+        files=""
+        for fullpath in $fullpaths; do
+          filename="${fullpath##*/}"
+          dir="${fullpath%%/*}"
+          [[ $filename == $dir ]] && continue
+          [[ " ${folders[*]} " =~ " $dir " ]] || continue
+          echo $fullpath
+          mimetype=$(file -b --mime-type $fullpath)
+          if [[ $mimetype =~ "image" ]]; then
+             dirpath="${fullpath:0:${#fullpath} - ${#filename}}"
+             base="${filename%.[^.]*}"
+             ext="${filename:${#base} + 1}"                 
+             convert -resize 140x140\! $fullpath /tmp/$base.png
+             ./s5cmd cp -acl public-read /tmp/$base.png s3://$S3_BUCKET/$dirpath$base.png
+             files+="$CDN_URL/$dirpath$base.png,"
+          fi
+        done
+        files="${files//,/\",\"}"
+        cffiles="[\"${files:0:-3}\"]"
+        dofiles="${cffiles//$CDN_URL/}"
+        echo $dofiles
+        echo $cffiles
+        
+        curl -s -X DELETE "${{ secrets.DO_APIURL }}/cdn/endpoints/${{ secrets.DO_CDNID }}/cache" \
+        --header "Authorization: Bearer ${{ secrets.DO_TOKEN }}" \
+        --header 'Content-Type: application/json' \
+        --data-raw "{\"files\":$dofiles}"
+        
+        curl -s -X POST "${{ secrets.CF_APIURL }}/zones/${{ secrets.CF_ZONEID }}/purge_cache" \
+        --header "Authorization: Bearer ${{ secrets.CF_TOKEN }}" \
+        --header 'Content-Type: application/json' \
+        --data-raw "{\"files\":$cffiles}"
