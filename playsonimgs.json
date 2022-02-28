@@ -1,4 +1,4 @@
-{
+{ 
     "solar-queen-megaways": "https://playson.com/media/cache/game/uploads/games/cropped/911bc91a200d462b92bec104d9c4a94458a5342e.png",
     "diamond-fortunator-hold-and-win": "https://playson.com/media/cache/game/uploads/games/cropped/ff3c49073d061be57ae5dc0ba7b262b42b89c986.png",
     "super-burning-wins-2-tba": "https://playson.com/media/cache/game/uploads/games/cropped/214a4ffae56c0d5d5441bd6c3cea4c52dbdb4c80.png",
@@ -96,5 +96,7 @@
     "roulette-with-track": "https://playson.com/media/cache/game/uploads/games/cropped/b92a1be214c3dbdb5a266cffef28ea284fea673d.jpg",
     "roulette-with-track-high": "https://playson.com/media/cache/game/uploads/games/cropped/a8afc4ab4254dbace6ee98f10bd3de6011d97801.jpg",
     "roulette-with-track-low": "https://playson.com/media/cache/game/uploads/games/cropped/1f311f0fb802e479135393b7456d4ba9d70f99e2.jpg",
-    "burning-wins-x2": "https://playson.com/media/cache/game/uploads/games/cropped/5173cf01d6e6436b3ae40a53d59de3ae67139703.png"
+    "burning-wins-x2": "https://playson.com/media/cache/game/uploads/games/cropped/5173cf01d6e6436b3ae40a53d59de3ae67139703.png",
+    "burning-fortunator": "https://playson.com/media/cache/game/uploads/games/cropped/e91ebc909b1b5dbc6ba6fff57b954502ccdcd068.png",
+    "lion-gems-hold-and-win": "https://playson.com/media/cache/game/uploads/games/cropped/a6358f245a10dae3479d4491d9a27644bc7b142f.png"
 }
