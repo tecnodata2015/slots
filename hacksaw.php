@@ -1,6 +1,9 @@
 <?php
 
-$result = shell_exec('find ../hacksawdata/. -name "*500*" -name "*png*" -print ');
+#$c = 'find ../hacksawdata/. -name "*500*" -name "*png*" -print ';
+$c = 'find ../hacksawdata/. -name "*_a.png" -print ';
+
+$result = shell_exec($c);
 $csv = trim(str_replace("\r", '', $result), "\n");
 $rows = explode("\n", $csv);
 foreach ($rows as $row) {
@@ -8,8 +11,6 @@ foreach ($rows as $row) {
     $n = preg_replace("/[^a-z]+/", "", strtolower($r[3]));
     $files[$n] = $row;
 }
-#print_r($files);
-#die();
 
 $result = file_get_contents('hacksaw.csv');
 $csv = trim(str_replace("\r", '', $result), "\n");
