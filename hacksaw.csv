@@ -26,9 +26,9 @@
 1131,Warrior Ways,slots
 1160,Gladiator Legends,slots
 1164,Hand of Anubis,slots
-1039,Haunted Circus,slots
-1054,The Bomb,slots
-1068,Forest Fortune,slots
+#1039,Haunted Circus,slots
+#1054,The Bomb,slots
+#1068,Forest Fortune,slots
 #1075,Born Wild,slots
 1126,Mines,instantwin
 1148,Coins,instantwin
