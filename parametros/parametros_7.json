@@ -1,0 +1,6 @@
+<?php     
+$data = ' 
+[{"monto_min_recarga":"10","monto_min_apuesta":"1","monto_max_derecho":"100","monto_min_retiro":"20","monto_max_retiro":"500","bonif_max":"200","monto_max_recarga":"2000","id":"7","monto_max_retiro_pagomovil":null,"pais":"ECUADOR (USD$)","tasa":null}]
+';
+
+?>
