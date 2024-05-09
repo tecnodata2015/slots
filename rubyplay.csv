@@ -18,21 +18,21 @@ rp_17,Savage Lion
 rp_18,Gallantry
 rp_19,Vegas Hotties
 rp_20,Loco Habanero
+rp_21,Dr. Frankenstein
 rp_22,Book of Riches Deluxe
 rp_23,Quest of Gods
-rp_25,Shake Shake Money Tree
-rp_27,New Year Happiness
-rp_31,Pirate's Booty
-rp_30,Reel All-Stars
 rp_24,Arcane Beauties
-rp_32,Mayan Cache
+rp_25,Shake Shake Money Tree
+rp_26,Wolf Haven
+rp_27,New Year Happiness
 rp_28,Egyptian Sun
+rp_29,#Alice in the Wild
+rp_30,Reel All-Stars
+rp_31,Pirate's Booty
+rp_32,Mayan Cache
 rp_33,Dragon 8s 25x
 rp_34,Sun of Ra
-rp_29,#Alice in the Wild
 rp_35,Shake Shake Leprechaun
-rp_26,Wolf Haven
-rp_21,Dr. Frankenstein
 rp_36,He He Yang
 rp_37,Blazing Tiger
 rp_38,Zeus Rush Fever
@@ -50,145 +50,52 @@ rp_49,Bull Fever
 rp_50,Enter the Vault
 rp_51,Adventures of Li'l Red
 rp_52,Vegas No Limit Wins
-rp_55,Grand Express Diamond Class
-rp_54,Feliz Dia de los Muertos
 rp_53,#Alice and the Mad Respin Party
+rp_54,Feliz Dia de los Muertos
+rp_55,Grand Express Diamond Class
 rp_56,Wizard's Spell
 rp_57,Clovers of Luck
 rp_58,Volcano Rising
 rp_59,Ancient Pharaoh
+rp_60,Mucho Loco Habanero
 rp_61,Shake Shake Christmas
 rp_62,New Year Rising
-rp_60,Mucho Loco Habanero
 rp_63,Book of Riches Deluxe: Chapter 2
-rp_67,Roman Legend
 rp_65,Mayan Blaze
 rp_66,More Dragon Ladies
+rp_67,Roman Legend
 rp_68,Zeus Rush Fever Deluxe
 rp_69,Viking Crusade
 rp_70,Golden Forge
-rp_72,Diamond Explosion 7s
 rp_71,Arabian Secret
+rp_72,Diamond Explosion 7s
 rp_73,Rush Fever 7s Deluxe
-rp_75,N/A
 rp_74,Grand Mariachi
+rp_75,N/A
 rp_76,Native Spirit
 rp_77,Clovers of Luck 2
 rp_78,Tiki Blaze
 rp_79,Royal Griffin
 rp_80,Prosperity Blessing
-rp_83,Rockin' Gorilla
 rp_81,Cache Rush
+rp_83,Rockin' Gorilla
 rp_84,Vegas Repeat Wins
+rp_85,Prince of Riches
 rp_87,True Wild
 rp_88,Immortal Ways Diamonds
-rp_85,Prince of Riches
-rp_93,Immortal Ways Buffalo
 rp_89,Grand Express Fiesta
-rp_95,Immortal Ways Piñata
 rp_91,ZapOtec Gold
-rp_586,ZapOtec Gold 94
-rp_587,ZapOtec Gold 90
-rp_588,ZapOtec Gold 88
-rp_97,Stampede Rush Wicked
-rp_592,Stampede Rush Wicked 94
-rp_593,Stampede Rush Wicked 90
-rp_594,Stampede Rush Wicked 88
-rp_96,Mad Hit Oasis
-rp_601,Mad Hit Oasis 94
-rp_603,Mad Hit Oasis 90
-rp_604,Mad Hit Oasis 88
-rp_99,Stampede Rush Speedy Santa
-rp_595,Stampede Rush Speedy Santa 94
-rp_596,Stampede Rush Speedy Santa 90
-rp_597,Stampede Rush Speedy Santa 88
-rp_504,Diamond Explosion 7s 94
-rp_505,Diamond Explosion 7s 90
-rp_506,Diamond Explosion 7s 88
-rp_507,Vegas No Limit Wins 94
-rp_508,Vegas No Limit Wins 90
-rp_509,Vegas No Limit Wins 88
-rp_510,Rush Fever 7s Deluxe 94
-rp_511,Rush Fever 7s Deluxe 90
-rp_512,Rush Fever 7s Deluxe 88
-rp_528,Vegas Repeat Wins 94
-rp_529,Vegas Repeat Wins 90
-rp_530,Vegas Repeat Wins 88
-rp_531,Immortal Ways Diamonds 94
-rp_532,Immortal Ways Diamonds 90
-rp_533,Immortal Ways Diamonds 88
-rp_501,Mayan Cache 94
-rp_502,Mayan Cache 90
-rp_503,Mayan Cache 88
-rp_516,Shake Shake Leprechaun 94
-rp_517,Shake Shake Leprechaun 90
-rp_518,Shake Shake Leprechaun 88
-rp_522,Shake Shake Money Tree 94
-rp_523,Shake Shake Money Tree 90
-rp_524,Shake Shake Money Tree 88
-rp_543,Shake Shake Christmas 94
-rp_544,Shake Shake Christmas 90
-rp_545,Shake Shake Christmas 88
-rp_569,Christmas Fortune 94
-rp_570,Christmas Fortune 90
-rp_571,Christmas Fortune 88
-rp_608,New Year Rising 94
-rp_610,New Year Rising 90
-rp_611,New Year Rising 88
-rp_552,Grand Express Diamond Class 94
-rp_553,Grand Express Diamond Class 90
-rp_554,Grand Express Diamond Class 88
-rp_102,Mad Hit Marlin Bonanza
-rp_614,Mad Hit Marlin Bonanza 94
-rp_616,Mad Hit Marlin Bonanza 90
-rp_617,Mad Hit Marlin Bonanza 88
-rp_98,Go High Harvest
-rp_632,Go High Harvest 94
-rp_634,Go High Harvest 90
-rp_635,Go High Harvest 88
+rp_93,Immortal Ways Buffalo
 rp_94,Immortal Ways 88 Charms
+rp_95,Immortal Ways Piñata
+rp_96,Mad Hit Oasis
+rp_97,Stampede Rush Wicked
+rp_98,Go High Harvest
+rp_99,Stampede Rush Speedy Santa
 rp_101,Diamond Explosion Sweet Love
-rp_605,Diamond Explosion Sweet Love 94
-rp_606,Diamond Explosion Sweet Love 90
-rp_607,Diamond Explosion Sweet Love 88
-rp_555,Zeus Rush Fever Deluxe 94
-rp_556,Zeus Rush Fever Deluxe 90
-rp_557,Zeus Rush Fever Deluxe 88
-rp_107,Mad Hit Wild Alice
-rp_627,Mad Hit Wild Alice 94
-rp_629,Mad Hit Wild Alice 90
-rp_630,Mad Hit Wild Alice 88
-rp_534,Immortal Ways Buffalo 94
-rp_535,Immortal Ways Buffalo 90
-rp_536,Immortal Ways Buffalo 88
-rp_558,Volcano Rising 94
-rp_560,Volcano Rising 90
-rp_561,Volcano Rising 88
+rp_102,Mad Hit Marlin Bonanza
 rp_104,J Mania Golden Eggs
-rp_622,J Mania Golden Eggs 94
-rp_623,J Mania Golden Eggs 90
-rp_624,J Mania Golden Eggs 88
-rp_111,Go High Gone Fishing
-rp_639,Go High Gone Fishing 94
-rp_640,Go High Gone Fishing 90
-rp_641,Go High Gone Fishing 88
-rp_572,Grand Express Action Class 94
-rp_573,Grand Express Action Class 90
-rp_574,Grand Express Action Class 88
-rp_645,Sheerluck 94
-rp_647,Sheerluck 90
-rp_648,Sheerluck 88
+rp_107,Mad Hit Wild Alice
 rp_108,Mad Hit Supernova
-rp_636,Mad Hit Supernova 94
-rp_637,Mad Hit Supernova 90
-rp_638,Mad Hit Supernova 88
-rp_649,Enter the Vault 94
-rp_650,Enter the Vault 90
-rp_651,Enter the Vault 88
-rp_519,Elephant Stampede 94
-rp_520,Elephant Stampede 90
-rp_521,Elephant Stampede 88
+rp_111,Go High Gone Fishing
 rp_112,Go High Fruit
-rp_652,Go High Fruit 94
-rp_653,Go High Fruit 90
-rp_654,Go High Fruit 88
