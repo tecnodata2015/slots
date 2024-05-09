@@ -1,19 +1,19 @@
-6,LOTTO ACTIVO,lotto_activo.png
-45,TRIOACTIVO,trio_activo.png
-52,LA RICACHONA,la_ricachona.png
-43,LOTTO ACTIVO RD,lotto_activo_rd.png
-50,CHANCE EN LINEA,chance_animalitos.png
-48,SELVA PLUS,selva_plus.png
-47,GUACHARO ACTIVO,guacharo_activo.png
-7,LA GRANJITA,la_granjita.png
-26,RULETA ACTIVA,ruletactiva.png
-28,LA RUCA,la_ruca.png
-51,LOTTO REY,lotto_rey.png
-36,EL TERMINALITO,elterminalito.png
-53,RULETA ROYAL,ruleta_royal.png
-54,ANIMALITO MILLONARIO,animalito_millonario.png
+6,LOTTO ACTIVO,boton_loterias_lotto_ativo_patronus.png
+45,TRIOACTIVO,boton_loterias_trio_activo.png
+52,LA RICACHONA,boton_loterias_la_ricachona.png
+43,LOTTO ACTIVO RD,boton_loterias_lotto_activo_rd.png
+50,CHANCE EN LINEA,boton_loterias_chance_en_linea_con_animalitos.png
+48,SELVA PLUS,boton_loterias_selva_plus.png
+47,GUACHARO ACTIVO,boton_loterias_guacharo_activo.png
+7,LA GRANJITA,boton_loterias_lagranjita.png
+26,RULETA ACTIVA,boton_loterias_ruletactiva.png
+28,LA RUCA,boton_loterias_la_ruca.png
+51,LOTTO REY,boton_loterias_lotto_rey.png
+36,EL TERMINALITO,boton_loterias_el_terminalito.png
+53,RULETA ROYAL,boton_loterias_ruleta_royal.png
+54,ANIMALITO MILLONARIO,boton_loterias_animalito_millonario.png
 1,TRIPLES Y TERMINALES,boton_loterias_triples_y_terminales.png
-55,TERMINAL LA GRANJITA,boton-terminal-lagranjita.png
-58,GRANJA PLUS,boton-granja-plus.png
-59,LOTO CHAIMA,boton-logo-chaima.png
-60,CARRUSEL MILLONARIO,boton-carrusel-millonario.png
+55,TERMINAL LA GRANJITA,boton_loterias_terminal_la_granjita.png
+58,GRANJA PLUS,boton_loterias_granja_plus.png
+59,LOTO CHAIMA,boton_loterias_loto_chaima.png
+60,CARRUSEL MILLONARIO,boton_loterias_carrusel_millonario.png
