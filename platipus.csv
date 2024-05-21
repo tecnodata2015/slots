@@ -63,12 +63,12 @@
 429,richywitchy,Richy Witchy,slots
 427,luckydolphin,Lucky Dolphin,slots
 443,crazyjelly,Crazy Jelly,slots
-110,rouletteeuropean,European Roulette,table
-490,baccaratvip,Baccarat VIP,table
-99,baccarat,Baccarat PRO,table
-489,baccaratmini,Baccarat Mini,table
-93,blackjack,Blackjack,table
-487,blackjackvip,Blackjack Vip,table
+110,rouletteeuropean,European Roulette,Mesa
+490,baccaratvip,Baccarat VIP,Cartas
+99,baccarat,Baccarat PRO,Cartas
+489,baccaratmini,Baccarat Mini,Cartas
+93,blackjack,Blackjack,Cartas
+487,blackjackvip,Blackjack Vip,Cartas
 556,jokerchase,Joker Chase,slots 
 557,poshcats,Posh Cats,slots
 559,piedradelsol,Piedra Del Sol,slots
@@ -102,6 +102,6 @@
 596,wondereels,WondeReels,slots
 597,urbanneon,Urban Neon,slots
 606,firstofolympians,First of Olympians,slots
-112,rouletteamerican,American Roulette,table
-591,vegasholdem,Vegas Hold'em,table
+112,rouletteamerican,American Roulette,Mesa
+591,vegasholdem,Vegas Hold'em,Poker
 
