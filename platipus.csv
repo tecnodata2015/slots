@@ -69,7 +69,7 @@
 489,baccaratmini,Baccarat Mini,Cartas,platipus
 93,blackjack,Blackjack,Cartas,platipus
 487,blackjackvip,Blackjack Vip,Cartas,platipus
-556,jokerchase,Joker Chase,Slots,platipus 
+556,jokerchase,Joker Chase,Slots,,platipus
 557,poshcats,Posh Cats,Slots,platipus
 559,piedradelsol,Piedra Del Sol,Slots,platipus
 560,ninedragonkings,9 Dragon Kings,Slots,platipus
@@ -81,8 +81,8 @@
 567,bookoflight,Book of Light,Slots,platipus
 568,extragems,Extra gems,Slots,platipus
 569,coinfest,Coinfest,Slots,platipus
-570,hallowin,Hallowin,Slots,platipus 
-571,xmasavalanche,Xmas Avalanche,Slots,platipus 
+570,hallowin,Hallowin,Slots,,platipus
+571,xmasavalanche,Xmas Avalanche,Slots,,platipus
 572,fruitboost,Fruit Boost,Slots,platipus
 573,booksofgiza,Book of Giza,Slots,platipus
 574,thebigscore,The Big Score,Slots,platipus
@@ -145,4 +145,4 @@
 10025,barbarossa_peterandsons,Barbarossa,Slots,peterandsons
 10026,thunderhawk_peterandsons,Thunderhawk,Slots,peterandsons
 10027,peterhunter_peterandsons,Peter Hunter,Slots,peterandsons
-10029,popcop_peterandsons,Pop Cop,Slots,peterandsons 
+10029,popcop_peterandsons,Pop Cop,Slots,peterandsons
