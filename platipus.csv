@@ -63,12 +63,12 @@
 429,richywitchy,Richy Witchy,Slots,platipus
 427,luckydolphin,Lucky Dolphin,Slots,platipus
 443,crazyjelly,Crazy Jelly,Slots,platipus
-110,rouletteeuropean,European Roulette,Mesa
-490,baccaratvip,Baccarat VIP,Cartas
-99,baccarat,Baccarat PRO,Cartas
-489,baccaratmini,Baccarat Mini,Cartas
-93,blackjack,Blackjack,Cartas
-487,blackjackvip,Blackjack Vip,Cartas
+110,rouletteeuropean,European Roulette,Mesa,platipus
+490,baccaratvip,Baccarat VIP,Cartas,platipus
+99,baccarat,Baccarat PRO,Cartas,platipus
+489,baccaratmini,Baccarat Mini,Cartas,platipus
+93,blackjack,Blackjack,Cartas,platipus
+487,blackjackvip,Blackjack Vip,Cartas,platipus
 556,jokerchase,Joker Chase,Slots,platipus 
 557,poshcats,Posh Cats,Slots,platipus
 559,piedradelsol,Piedra Del Sol,Slots,platipus
@@ -97,18 +97,18 @@
 586,wizardofthewild,Wizard of the wild,Slots,platipus
 588,minerz,Minerz,Slots,platipus
 590,ultradisco,Ultra Disco,Slots,platipus
-591,vegasholdem,Vegas Hold'em,Poker
+591,vegasholdem,Vegas Hold'em,Poker,platipus
 592,coincharge,Coin Charge,Slots,platipus
 594,dragonsmoney,Dragons Money,Slots,platipus
 596,wondereels,WondeReels,Slots,platipus
 597,urbanneon,Urban Neon,Slots,platipus
-599,multihandblackjack,Multihand Blackjack,Cartas
+599,multihandblackjack,Multihand Blackjack,Cartas,platipus
 601,airboss,Air Boss,Slots,platipus
 603,juicywheel,Juicy Wheel,Slots,platipus
 604,5000xrush,5000 x rush,Slots,platipus
 606,firstofolympians,First of Olympians,Slots,platipus
 610,mysterystones,Mystery Stones,Slots,platipus
-112,rouletteamerican,American Roulette,Mesa
+112,rouletteamerican,American Roulette,Mesa,platipus
 613,premiumeuropeanblackjack,Premium European Blackjack,Slots,platipus
 614,missionvegas,Mission Vegas,Slots,platipus
 617,roulettemini,Mini Roulette,Slots,platipus
@@ -145,4 +145,4 @@
 10025,barbarossa_peterandsons,Barbarossa,Slots,peterandsons
 10026,thunderhawk_peterandsons,Thunderhawk,Slots,peterandsons
 10027,peterhunter_peterandsons,Peter Hunter,Slots,peterandsons
-10029,popcop_peterandsons,Pop Cop,Slots,peterandsons
+10029,popcop_peterandsons,Pop Cop,Slots,peterandsons 
