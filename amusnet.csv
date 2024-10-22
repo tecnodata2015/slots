@@ -44,6 +44,7 @@
 456,20-bulky-dice,20 Bulky Dice,slot
 457,aztec-dice,Aztec Dice,slot
 461,vampire-bites,Vampire Bites,slot
+463,secret-of-cairo,Secrets of Cairo,slot
 464,orient-story-deluxe,Orient Story Deluxe,slot
 467,water-dice,Water Dice,slot
 468,40-golden-coins,40 Golden Coins,slot
@@ -253,3 +254,4 @@
 30,live-speed-roulette,Live Speed Roulette,lives
 38,vegas-roulette-500x,Vegas Roulette 500x,roulette
 40,live-roulette-russian,Live Roulette - Russian,lives
+43,live-altin-roulette,Live Altin Roulette,lives
