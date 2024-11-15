@@ -78,7 +78,7 @@
 563,waysofthegauls,Ways of the Gauls,Slots,platipus
 564,wildcrowns,Wild Crowns,Slots,platipus
 565,pearlsoftheocean,Pearls of the ocean,Slots,platipus
-566,bonusdeuceswild,Bonus Deuces Wild,Slots,platipus
+566,bonusdeuceswild,Bonus Deuces Wild,Poker,platipus
 567,bookoflight,Book of Light,Slots,platipus
 568,extragems,Extra gems,Slots,platipus
 569,coinfest,Coinfest,Slots,platipus
@@ -89,9 +89,9 @@
 574,thebigscore,The Big Score,Slots,platipus
 575,catchtheleprechaun,Catch the leprechaun,Slots,platipus
 576,pirateslegacy,Pirates Legacy,Slots,platipus
-577,acesandfaces,Aces and Faces,Slots,platipus
+577,acesandfaces,Aces and Faces,Poker,platipus
 578,wildspindeluxe,Wild Spin Deluxe,Slots,platipus
-580,twowaysroyal,2 Ways Royal,Slots,platipus
+580,twowaysroyal,2 Ways Royal,Poker,platipus
 582,missgypsy,Miss Gypsy,Slots,platipus
 583,thorturbopower,Thor Turbo Power,Slots,platipus
 584,texasholdem,Texas Hold'em,Poker,platipus
@@ -113,7 +113,7 @@
 606,firstofolympians,First of Olympians,Slots,platipus
 610,mysterystones,Mystery Stones,Slots,platipus
 112,rouletteamerican,American Roulette,Mesa,platipus
-613,premiumeuropeanblackjack,Premium European Blackjack,Slots,platipus
+613,premiumeuropeanblackjack,Premium European Blackjack,Cartas,platipus
 614,missionvegas,Mission Vegas,Slots,platipus
 615,liverouletteeuropeanvip,Live Roulette European VIP,Lives,platipus
 617,roulettemini,Mini Roulette,Mesa,platipus
@@ -125,6 +125,7 @@
 630,vikinggames,Viking Games,Slots,platipus
 632,wildbingo,Wild Bingo,BINGO,platipus
 636,1000xrush,1000 x Rush,Slots,platipus
+637,blackjacksurrender,Blackjack Surrender,Cartas,platipus
 640,2500xrush,2500 x Rush,Slots,platipus
 650,10000xrush,10000 x Rush,Slots,platipus
 10000,dcirque_peterandsons,DCirque,Slots,peterandsons
