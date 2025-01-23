@@ -43,7 +43,7 @@
 1167,HawaiianFantasy,Hawaiian Fantasy
 1168,RainbowGold,Rainbow Gold
 1148,CaribbeanCannons,Caribbean Cannons
-1174,GoldenReindeer,Golden Reindeer
+GoldenReindeer,EGIGame,Golden Reindeer
 1123,SpinDiner,Spin Diner
 1150,Wildland,Wildland 
 1169,SeaGod,Sea God
@@ -65,14 +65,14 @@
 1161,BookOfTheEast,Book Of The East
 1185,RockNWaysXtraWays,Rock n Ways XtraWays
 1188,SantaVsAliens,Santa VS Aliens
-1170,AlohaSpiritXtraLock,Aloha Spirit XtraLock
+AlohaSpirit,EGIGame,Aloha Spirit XtraLock
 1189,VikingHonourXtraWild,Viking Honor XtraWild
 1190,JellyManiaXtraStreak,Jelly Mania XtraStreak
 1194,EGIGame,Book of Easter
 1187,TheCrown,The Crown 
 1197,PathOfDragons,Path of Dragons
 1198,BookOfShai,Book of Shai
-1201,MonsterDisco,Monster Disco XtraHold 
+MonsterDisco,EGIGame,Monster Disco XtraHold 
 1204,SantaPets,Santa Pets 
 2001,StackingBison,Stacking Bison 
 2002,LightningJungle,Lightning Jungle 
@@ -190,6 +190,7 @@ JadeBlade,EGIGame,Jade Blade XtraSplit
 15724,EGIGame,Aqua Lord 2
 15725,EGIGame,Mille Due Mille
 15727,EGIGame,Big Max Clover Collect
+15728,EGIGame,Horus Treasure
 AztecGods,EGIGame,Aztec Gods
 CheshiresLuck,EGIGame,Cheshires Luck
 BuffaloRiches,EGIGame,Buffalo Riches
@@ -208,3 +209,9 @@ IHateFairytales,EGIGame,I Hate Fairytales
 YellowSlotmarine,EGIGame,Yellow Slotmarine
 Chessmas,EGIGame,Chessmas
 LollyLand,EGIGame,Lolly Land
+MysticBear,EGIGame,Mystic Bear XtraHold™
+WildWildNorth,EGIGame,Wild Wild North
+TRexGold,EGIGame,T-Rex Gold
+BabelBuilder,EGIGame,Babel Builder
+RubyRobbery,EGIGame,Ruby Robbery
+WilliamsQuest,EGIGame,William's Quest
