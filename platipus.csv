@@ -380,11 +380,17 @@
 14177,reelpartyplatinum_rival,Reel Party Platinum,Slots,rival
 14176,heroesrealm_rival,Heroes' Realm,Slots,rival
 14175,sherwoodforestfortunes_rival,Sherwood Forest Fortunes,Slots,rival
+14174,acesandfaces_rival,Aces and Faces,Slots,rival
 14173,costumeparty_rival,Costume Party,Slots,rival
 14172,starjewels_rival,Star Jewels,Slots,rival
 14171,cirqueduslots_rival,Cirque du Slots,Slots,rival
 14170,darkhearts_rival,Dark Hearts,Slots,rival
-14166,tensorbettermultihand_rival,Tens or Better (Multi-Hand),Slots,rival
+14169,tensorbettermultihand_rival,Tens or Better (Multi-Hand),Slots,rival
+14168,jokerpokermultihand_rival,Joker Poker (Multi-Hand),Slots,rival
+14167,deuceswildmultihand_rival,Deuces Wild (Multi-Hand),Slots,rival
+14166,acesandfacesmultihand_rival,Aces and Faces (Multi-Hand),Slots,rival
+14165,deucesandjokermultihand_rival,Deuces and Joker (Multi-Hand),Slots,rival
+14164,doublejokermultihand_rival,Double Joker (Multi-Hand),Slots,rival
 14163,tikitreasure_rival,Tiki Treasure,Slots,rival
 14162,castforcash_rival,Cast for Cash,Slots,rival
 14161,piratespillage_rival,Pirate's Pillage,Slots,rival
@@ -461,6 +467,7 @@
 14089,fivetimeswins_rival,Five Times Wins,Slots,rival
 14088,catsino_rival,Catsino,Slots,rival
 14087,champselysees_rival,Champs Élysées,Slots,rival
+14086,thunderbird_rival,Thunderbird,Slots,rival
 14085,megawins_rival,MegaWins,Slots,rival
 14084,riseofposeidon_rival,Rise of Poseidon,Slots,rival
 14083,windyfarm_rival,Deuces and Joker,Slots,rival
@@ -475,6 +482,7 @@
 14074,sensationalsixes_rival,Sensational Sixes,Slots,rival
 14073,jumpingjaguar_rival,Jumping Jaguar,Slots,rival
 14072,goldbricks_rival,Gold Bricks,Slots,rival
+14071,johnnyjungle_rival,Gold Bricks,Slots,rival
 14070,juicyjewels_rival,Juicy Jewels,Slots,rival
 14069,misfittoyland_rival,Misfit Toyland,Slots,rival
 14068,bigbangbuckaroo_rival,Big Bang Buckaroo,Slots,rival
@@ -482,7 +490,7 @@
 14066,plunkoh_rival,Plunk Oh,Slots,rival
 14065,luckylabyrinth_rival,Lucky Labyrinth,Slots,rival
 14064,mightyaphrodite_rival,Mighty Aphrodite,Slots,rival
-14190,almightydollar_rival,Almighty Dollar,Slots,rival
+14063,almightydollar_rival,Almighty Dollar,Slots,rival
 14062,dracula_rival,Dr. Acula,Slots,rival
 14061,kingwinalot_rival,King Winalot,Slots,rival
 14060,jackfrost_rival,Jack Frost,Slots,rival
@@ -519,7 +527,9 @@
 14028,honeyhivexl_rival,Honey Hive XL,Slots,rival
 14027,bankersgonebonkers_rival,Bankers Gone Bonkers,Slots,rival
 14026,bingo80ball_rival,Bingo (80-Ball),Slots,rival
+14025,bingoamerican_rival,Bingo-75,Slots,rival
 14024,bingo30ball_rival,Bingo (30-Ball),Slots,rival
+14023,bingoeuropean_rival,Bingo-90,Slots,rival
 14022,fairytalefortunesjackandthegiants_rival,Fairytale Fortunes: Jack and the Giants,Slots,rival
 14021,reelcrimecoffinupcash_rival,Reel Crime: Coffin Up Cash,Slots,rival
 14020,crocodilehunt_rival,Crocodile Hunt,Slots,rival
@@ -534,6 +544,15 @@
 14011,metaldetectormayanmagic_rival,Metal Detector: Mayan Magic,Slots,rival
 14010,crownofcamelot_rival,Crown of Camelot,Slots,rival
 14009,zeusthunderfortunes_rival,Zeus Thunder Fortunes,Slots,rival
+14008,coyotecanyon_rival,Coyote Canyon,Slots,rival
+14007,grandmasattic_rival,Grandma's Attic,Slots,rival
+14006,shellshock_rival,Shell Shock,Slots,rival
+14005,midnightmustang_rival,Midnight Mustang,Slots,rival
+14004,bierfestbonanza_rival,Bierfest Bonanza,Slots,rival
+14003,mandarintiger_rival,Mandarin Tiger,Slots,rival
+14002,shakeyourmummymaker_rival,Shake Your Mummymaker,Slots,rival
+14001,soulsofthedead_rival,Souls of the Dead,Slots,rival
+14000,forestofforbiddentreasures_rival,Forest of Forbidden Treasures,Slots,rival
 
 
 
