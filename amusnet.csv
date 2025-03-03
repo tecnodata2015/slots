@@ -263,12 +263,14 @@
 902,joker-poker,Joker Poker,poker
 903,4-of-a-kind-bonus-poker,4 of a Kind Bonus Poker,poker
 911,coin-gobbler-christmas-edition,Coin Gobbler - Christmas Edition,slot
-20201,european-roulette,European Roulette,roulette
-11,dynamic-european-roulette,Dynamic European Roulette,roulette
+20201,european-roulette,European Roulette,lives
+11,dynamic-european-roulette,Dynamic European Roulette,lives
 15,dynamic-roulette-120x,Dynamic Roulette 120x,roulette
 19,live-european-roulette,Live European Roulette,lives
-29,onyx-auto-roulette,Onyx Auto Roulette,roulette
+29,onyx-auto-roulette,Onyx Auto Roulette,lives
 30,live-speed-roulette,Live Speed Roulette,lives
-38,vegas-roulette-500x,Vegas Roulette 500x,roulette
+38,vegas-roulette-500x,Vegas Roulette 500x,lives
+39,live-roulette-bulgarian,Live Roulette - Bulgarian,lives
 40,live-roulette-russian,Live Roulette - Russian,lives
 43,live-altin-roulette,Live Altin Roulette,lives
+47,showtime-roulette,Showtime Roulette,lives
