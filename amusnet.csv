@@ -146,9 +146,6 @@
 597,kamakura,Kamakura,slot
 598,magic-guardians,Magic Guardians,slot
 599,empress-charm,Empress Charm,slot
-603,virtual-vegas-roulette,Virtual Vegas Roulette,roulette
-604,virtual-space-roulette,Virtual Space Roulette,roulette
-605,virtual-monaco-roulette,Virtual Monaco Roulette,roulette
 607,40-extra-crown,40 Extra Crown,slot
 608,20-glossy-hot,20 Glossy Hot,slot
 613,dice-roll-christmas-edition,Dice & Roll - Christmas Edition,slot
@@ -260,7 +257,7 @@
 15,dynamic-roulette-120x,Dynamic Roulette 120x,Roulette
 29,onyx-auto-roulette,Onyx Auto Roulette,Roulette
 38,vegas-roulette-500x,Vegas Roulette 500x,Roulette
-40,live-roulette-russian,Live Roulette - Russian,lives
+40,live-roulette-russian,Live Roulette - Russian,Roulette
 47,showtime-roulette,Showtime Roulette,Roulette
 3400,extra-crown-deluxe-live,Extra Crown Deluxe Live,slot
 5000,shining-crown-buy-bonus,Shining Crown Buy Bonus,slot
@@ -277,3 +274,11 @@
 5070,extra-crown-classic-dice,Extra Crown Classic Dice,slot
 610,100-extra-crown,100 Extra Crown,slot
 635,wenshi-lion,Wenshi Lion,slot
+38,vegas-roulette-500x,Vegas Roulette 500x,Roulette
+39,live-roulette-bulgarian,Live Roulette - Bulgarian,Roulette
+603,virtual-vegas-roulette,Virtual Vegas Roulette 500x,Roulette
+604,virtual-space-roulette,Virtual Space Roulette 120x,Roulette
+605,virtual-monaco-roulette,Virtual Monaco Roulette 72x,Roulette
+11,dynamic-european-roullette,Dynamic European Roulette,Roulette
+
+
