@@ -78,12 +78,12 @@
 429,richywitchy,Richy Witchy,slots,platipus
 427,luckydolphin,Lucky Dolphin,slots,platipus
 443,crazyjelly,Crazy Jelly,slots,platipus
-110,rouletteeuropean,European Roulette,Mesa,platipus
-490,baccaratvip,Baccarat VIP,Cartas,platipus
-99,baccarat,Baccarat PRO,Cartas,platipus
-489,baccaratmini,Baccarat Mini,Cartas,platipus
-93,blackjack,Blackjack,Cartas,platipus
-487,blackjackvip,Blackjack Vip,Cartas,platipus
+110,rouletteeuropean,European Roulette,slots,platipus
+490,baccaratvip,Baccarat VIP,slots,platipus
+99,baccarat,Baccarat PRO,slots,platipus
+489,baccaratmini,Baccarat Mini,slots,platipus
+93,blackjack,Blackjack,slots,platipus
+487,blackjackvip,Blackjack Vip,slots,platipus
 556,jokerchase,Joker Chase,slots,platipus
 557,poshcats,Posh Cats,slots,platipus
 559,piedradelsol,Piedra Del Sol,slots,platipus
@@ -119,8 +119,8 @@
 594,dragonsmoney,Dragons Money,slots,platipus
 596,wondereels,WondeReels,slots,platipus
 597,urbanneon,Urban Neon,slots,platipus
-599,multihandblackjack,Multihand Blackjack,Cartas,platipus
-600,singledeckblackjack,Single Deck Blackjack,Cartas,platipus
+599,multihandblackjack,Multihand Blackjack,slots,platipus
+600,singledeckblackjack,Single Deck Blackjack,slots,platipus
 601,airboss,Air Boss,slots,platipus
 602,liverouletteeuropean,Live Roulette European,lives,platipus
 603,juicywheel,Juicy Wheel,slots,platipus
@@ -129,11 +129,11 @@
 607,tapthepot,Tap the Pot,slots,platipus
 610,mysterystones,Mystery Stones,slots,platipus
 611,europeanblackjackmultihand,European Blackjack Multihand,slots,platipus
-112,rouletteamerican,American Roulette,Mesa,platipus
-613,premiumeuropeanblackjack,Premium European Blackjack,Cartas,platipus
+112,rouletteamerican,American Roulette,slots,platipus
+613,premiumeuropeanblackjack,Premium European Blackjack,slots,platipus
 614,missionvegas,Mission Vegas,slots,platipus
 615,liverouletteeuropeanvip,Live Roulette European VIP,lives,platipus
-617,roulettemini,Mini Roulette,Mesa,platipus
+617,roulettemini,Mini Roulette,slots,platipus
 618,slotcade,Slotcade,slots,platipus
 619,doublesteam,Double Steam,slots,platipus
 620,hookthecash,Hook The Cash,slots,platipus
@@ -142,10 +142,10 @@
 629,shakeandwin,Shake and Win,slots,platipus
 630,vikinggames,Viking Games,slots,platipus
 631,piggytrust,Piggy Trust,slots,platipus
-632,wildbingo,Wild Bingo,BINGO,platipus
+632,wildbingo,Wild Bingo,slots,platipus
 634,plinko,Plinko,slots,platipus
 636,1000xrush,1000 x Rush,slots,platipus
-637,blackjacksurrender,Blackjack Surrender,Cartas,platipus
+637,blackjacksurrender,Blackjack Surrender,slots,platipus
 638,eveofgifts,Eve of Gifts,slots,platipus
 639,lordofthekeys,Lord of the keys,slots,platipus
 640,2500xrush,2500 x Rush,slots,platipus
@@ -264,7 +264,7 @@
 13035,dicethrice_turbogames,Dice Thrice,slots,turbogames
 13036,jewelclicker_turbogames,Jewel Clicker,slots,turbogames
 13037,cricketboom_turbogames,Cricket Boom,slots,turbogames
-21041,cricketroulette__beterlive,Cricket Roulette,lives,iconic21
+21041,cricketroulette_beterlive,Cricket Roulette,lives,iconic21
 21040,cricketpremierblackjack_beterlive,Cricket Premier Blackjack,lives,iconic21
 21039,cricketblackjack_beterlive,Cricket Blackjack,lives,iconic21
 21037,knockknock96_beterlive,Knock Knock,slots,iconic21
@@ -300,8 +300,8 @@
 21031,blackjack360midnight_beterlive,Blackjack 360 Midnight,lives,iconic21
 21032,lightspeed_beterlive,Lightspeed,slots,iconic21
 21033,andarbahar_beterlive,Andar Bahar,lives,iconic21
-21034,grandbonusblackjack_beterlive,Grand Bonus Blackjack,iconic21
-21035,oasisvipblackjack_beterlive,Oasis VIP Blackjack,iconic21
+21034,grandbonusblackjack_beterlive,Grand Bonus Blackjack,lives,iconic21
+21035,oasisvipblackjack_beterlive,Oasis VIP Blackjack,lives,iconic21
 11072,sunnycoin10000holdthespin_gamzix,Sunny Coin 10000: Hold The Spin,slots,gamzix
 11071,3x5holdthespin_gamzix,3x5 Hold The Spin,slots,gamzix
 11069,40chillifruitssuperior_gamzix,40 Chilli Fruits Superior,slots,gamzix
