@@ -1,8 +1,61 @@
-onetouch,ONETOUCH,onetouchlive,20749
-ezugi,Ezugi,ezugi,1000000
-sprintgaming,SPRINT GAMING,sprintgaming,sprintgaming
-pragmatic,PRAGMATIC PLAY,pragmatic,101
-platipus,PLATIPUS,platipus,platipus
-amusnet,AMUSNET,amusnet,amusnet
-iconic21,ICONIC21,iconic21,iconic21
-evolution,EVOLUTION,evolution,evolution
+onetouch,ONETOUCH,onetouchlive,20749,casino_id
+ezugi,Ezugi,ezugi,1000000,casino_id
+sprintgaming,SPRINT GAMING,sprintgaming,sprintgaming,casino_id
+pragmatic,PRAGMATIC PLAY,pragmatic,101,casino_id
+platipus,PLATIPUS,platipus,platipus,casino
+amusnet,AMUSNET,amusnet,amusnet,casino
+iconic21,ICONIC21,iconic21,iconic21,casino
+evolution,EVOLUTION,evolution,1000,casino_id
+platipus,LIVE ROULETTE FRENCH,platipus,625,game
+platipus,LIVE ROULETTE FRENCH VIP,platipus,626,game
+platipus,RULETA EN VIVO EUROPA,platipus,602,game
+platipus,VIP RULETA EN VIVO EUROPA,platipus,615,game
+amusnet,EXTRA CROWN DELUXE LIVE,amusnet,3400,game
+amusnet,VEGAS ROULETTE 500X,amusnet,38,game
+amusnet,LIVE ROULETTE BULGARIAN,amusnet,39,game
+amusnet,VIRTUAL VEGAS ROULETTE 500x,amusnet,603,game
+amusnet,VIRTUAL MONACO ROULETTE 72x,amusnet,605,game
+amusnet,LIVE ALTIN RULET,amusnet,43,game
+amusnet,ONYX AUTO ROULETTE,amusnet,29,game
+amusnet,LIVE EUROPEAN ROULETTE,amusnet,19,game
+amusnet,DYNAMIC ROULETTE 120X,amusnet,15,game
+amusnet,LIVE ROULETTE RUSSIAN,amusnet,40,game
+amusnet,EUROPEAN ROULETTE DYNAMIC,amusnet,11,game
+amusnet,LIVE SPEED ROULETTE,amusnet,30,game
+amusnet,SHOWTIME ROULETTE 500X,amusnet,47,game
+amusnet,VIRTUAL SPACE ROULETTE 120x,amusnet,604,game
+iconic21,CRICKET ROULETTE,iconic21,21041,game
+iconic21,CRICKET PREMIER BLACKJACK,iconic21,21040,game
+iconic21,CRICKET BLACKJACK,iconic21,21039,game
+iconic21,BLACKJACK 360 SUNRISE,iconic21,21028,game
+iconic21,BLACKJACK 360 MIDNIGHT,iconic21,21031,game
+iconic21,ANDAR BAHAR,iconic21,21033,game
+iconic21,TOP CARD,iconic21,21022,game
+iconic21,CRASH LIVE,iconic21,21023,game
+iconic21,OASIS BJ 2,iconic21,21024,game
+iconic21,VIRTUAL DRAGON TIGER,iconic21,21020,game
+iconic21,VIP NC BACCARAT,iconic21,21016,game
+iconic21,VIP BLACKJACK,iconic21,21019,game
+iconic21,GRAVITY ROULETTE,iconic21,21017,game
+iconic21,THE KICKOFF,iconic21,21018,game
+iconic21,ROULETTE LITE,iconic21,21021,game
+iconic21,LIVE FRENCH ROULETTE,iconic21,21001,game
+iconic21,GRAVITY BLACKJACK,iconic21,21002,game
+iconic21,SPEED BLACKJACK,iconic21,21003,game
+iconic21,LIVE ROULETTE,iconic21,21000,game
+iconic21,LIVE BACCARAT 1,iconic21,21004,game
+iconic21,LIVE BACCARAT 1 NC,iconic21,21005,game
+iconic21,BET ON TEEN PATTI,iconic21,21006,game
+iconic21,OASIS BLACKJACK,iconic21,21007,game
+iconic21,SIC BO,iconic21,21008,game
+iconic21,VIRTUAL TOP CARD,iconic21,21010,game
+iconic21,AUTO ROULETTE,iconic21,21011,game
+iconic21,GRAVITY AUTO ROULETTE,iconic21,21012,game
+iconic21,TAKE DEAL OR RISK BLACKJACK,iconic21,21013,game
+iconic21,GRAND BONUS BACCARAT,iconic21,21014,game
+iconic21,VIP BACCARAT,iconic21,21015,game
+iconic21,BLACKJACK 360 MIDDAY,iconic21,21029,game
+iconic21,GRAVITY SIC BO,iconic21,21009,game
+iconic21,BLACKJACK 360 SUNSET,iconic21,21030,game
+iconic21,OASIS VIP BLACKJACK,iconic21,21035,game
+iconic21,GRAND BONUS BLACKJACK,iconic21,21034,game
