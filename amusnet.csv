@@ -154,7 +154,6 @@
 547,40-mega-clover,40 Mega Clover,slots
 548,100-burning-hot,100 Burning Hot,slots
 549,81-wins,81 Wins,slots
-550,virtual-roulette,Virtual Roulette,lives
 553,5-great-star,5 Great Star,slots
 554,20-joker-reels,20 Joker Reels,slots
 555,great-27,Great 27,slots
@@ -300,12 +299,6 @@
 902,joker-poker,Joker Poker,poker
 903,4-of-a-kind-bonus-poker,4 of a Kind Bonus Poker,poker
 911,coin-gobbler-christmas-edition,Coin Gobbler - Christmas Edition,slots
-20201,european-roulette,European Roulette,lives
-15,dynamic-roulette-120x,Dynamic Roulette 120x,lives
-29,onyx-auto-roulette,Onyx Auto Roulette,lives
-38,vegas-roulette-500x,Vegas Roulette 500x,lives
-40,live-roulette-russian,Live Roulette - Russian,lives
-47,showtime-roulette,Showtime Roulette,lives
 3400,extra-crown-deluxe-live,Extra Crown Deluxe Live,slots
 5000,shining-crown-buy-bonus,Shining Crown Buy Bonus,slots
 471,fruits-and-gold-dice,Fruits & Gold Dice,slots
@@ -331,6 +324,13 @@
 5070,extra-crown-classic-dice,Extra Crown Classic Dice,slots
 610,100-extra-crown,100 Extra Crown,slots
 635,wenshi-lion,Wenshi Lion,slots
+550,virtual-roulette,Virtual Roulette,lives
+20201,european-roulette,European Roulette,lives
+15,dynamic-roulette-120x,Dynamic Roulette 120x,lives
+29,onyx-auto-roulette,Onyx Auto Roulette,lives
+38,vegas-roulette-500x,Vegas Roulette 500x,lives
+40,live-roulette-russian,Live Roulette - Russian,lives
+47,showtime-roulette,Showtime Roulette,lives
 38,vegas-roulette-500x,Vegas Roulette 500x,lives
 39,live-roulette-bulgarian,Live Roulette - Bulgarian,lives
 603,virtual-vegas-roulette,Virtual Vegas Roulette 500x,lives
