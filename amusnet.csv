@@ -349,9 +349,10 @@
 5070,extra-crown-classic-dice,Extra Crown Classic Dice,slots
 610,100-extra-crown,100 Extra Crown,slots
 635,wenshi-lion,Wenshi Lion,slots
-603,virtual-vegas-roulette,Virtual Vegas Roulette 500x,lives
-604,virtual-space-roulette,Virtual Space Roulette 120x,lives
-605,virtual-monaco-roulette,Virtual Monaco Roulette 72x,lives
+603,virtual-vegas-roulette,Virtual Vegas Roulette 500x,slots
+604,virtual-space-roulette,Virtual Space Roulette 120x,slots
+605,virtual-monaco-roulette,Virtual Monaco Roulette 72x,slots
+5118,golden-goal-roulette,Golden Goal Roulette,slots
 5281,vip-saray-rulet,VIP Saray Rulet,lives
 550,virtual-roulette,Virtual Roulette,lives
 20201,european-roulette,European Roulette,lives
@@ -370,4 +371,3 @@
 30,live-speed-roulette,LIVE SPEED ROULETTE,lives
 19,live-european-roulette,LIVE EUROPEAN ROULETTE,lives
 5100,vegas-gobbler-live,VEGAS GOBBLER LIVE,lives
-5118,golden-goal-roulette,Golden Goal Roulette,lives
