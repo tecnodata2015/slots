@@ -1357,7 +1357,7 @@
 46006,keno_betcoretvbet,Keno,slots,tvbet
 46005,7bet_betcoretvbet,7Bet,slots,tvbet
 46004,5bet_betcoretvbet,5Bet,slots,tvbet
-46003,war_betcoretvbet,War,slots,tvbet
-46002,poker_betcoretvbet,Poker,slots,tvbet
+46003,war_betcoretvbet,War,lives,tvbet
+46002,poker_betcoretvbet,Poker,lives,tvbet
 46001,wheelbetbonus_betcoretvbet,Wheelbet Bonus,lives,tvbet
 46000,wheelbet_betcoretvbet,Wheelbet,lives,tvbet
